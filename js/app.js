@@ -118,7 +118,8 @@ for(let element of anchorlinks){
 // Set sections as active
 
 window.onscroll = function(){
-    var sections = document.querySelectorAll(".landing__container")
+    var sections = document.querySelectorAll(".landing__container");
+    // active method which is created above will make the sections active 
     for(let a of sections){
         activate(a);
         console.log(a);
