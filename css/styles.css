@@ -65,6 +65,7 @@ section {
 
 /* Navigation Styles*/
 .navbar__menu ul {
+    display: flex;
     padding-left: 0;
     margin: 0;
     text-align: right;
@@ -83,7 +84,12 @@ section {
 }
 
 .navbar__menu .menu__link:hover {
-    background: #333;
+    background:green;
+    color: #fff;
+    transition: ease 0.3s all;
+}
+.navbar__menu .navbar-active {
+    background:green;
     color: #fff;
     transition: ease 0.3s all;
 }
